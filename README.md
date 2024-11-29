@@ -11,12 +11,27 @@ This project implements a system for segmenting images and generating captions f
 - **Python**
 
 ## Project Folder Hierarchy
-/project_root/ │ 
-├── models/ # Directory to store model weights 
-│ ├── input_images/ # Directory containing images to process 
-│ ├── output_images/ # Directory to store output images and captions 
-│ ├── segmentation.py # Main module for segmentation and captioning tasks 
-│ └── main.py # Script to run the full processing pipeline
+SegCap/
+│
+├── README.md                 # Project overview, including installation steps and usage instructions
+├── src/                      # Source code folder
+│   ├── main.py               # Main Python script
+│   └── segmentation.py       # Segmentation code
+│
+├── images/                   # Folder for screenshots
+|   ├── debugging_screenshots # Folder for error screenshots
+│   |  ├── debug_screens_errors_2024_11_19_predict_param_error.png  #
+│   |  ├── debug_screens_errors_2024_11_20_caption_method_code.png  #
+│   |  ├── debug_screens_errors_2024_11_20_segment_image_code.png   #
+│   |  ├── debug_screens_errors_2024_11_22_repeated_captions.png    #
+|   ├── final_results # Folder for after debugging
+│   |  ├── debug_screens_fixes_2024_11_22_final_result.png          #
+|
+├── logs_summary.docx         # Team contributions and task logs
+├── references.docx           # References in APA format
+├── demo.mp4                  # Video demonstration
+└── .gitignore                # Specifies files to exclude from Git commits
+
 
 ## Installation Steps
 1. Clone the repository: git clone <repository-url>
